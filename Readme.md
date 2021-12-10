@@ -12,7 +12,9 @@
 
 <br />
 
+The terraform configuration language and all the files in this repository are intuitively simple and straightforward. They are written in simple text and functions that any beginner can understand. Terraform deployment with zero dependency, no prerequisites, no need to install additional software, no programming required.
 
+The idea was to create a full-fledged turnkey infrastructure, with deeper settings, so that anyone could deploy it and immediately use it for his ghost CMS.
 
 # Deployment into isolated VPC:
 - [x] Login to AWS Console
@@ -49,3 +51,4 @@
 # TODO
 - Configure the application with Database, CloudFront media and SES in config.production.json. 
 at the moment its throwing the error due to sqlite3, it should be picking up with custom define configuration.
+- CI/CD

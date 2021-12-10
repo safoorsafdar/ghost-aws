@@ -38,7 +38,7 @@ The idea was to create a full-fledged turnkey infrastructure, with deeper settin
 ```
 >  
 **[ ! ]** Note: Right after `terraform apply` you will receive email from amazon to approve resources  
-**[ ! ]** Check all user_data, adjust your settings, edit your cidr, brand, domain, email and other vars in `variables.tf`  
+**[ ! ]** Check all user_data, settings, cidr, brand, domain, email and other vars in `variables.tf`  
 - [x] Run:
 ```
    terraform init

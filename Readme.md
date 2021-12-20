@@ -11,7 +11,6 @@ The idea is to create a full-fledge turnkey infrastructure, with deeper settings
 <br />
 
 ## EC2 webstack custom configuration and Auto Scaling management
-
 [User data][userdata] templates with shell scripts. If you are familiar with shell scripting, this is the easiest and most complete way to send instructions to an instance to perform common automated configuration tasks and even run scripts after the instance starts. From default stack optimization to changing any application and service settings.
 
 [**Warm pools** for Amazon EC2 Auto Scaling][asg] - A warm pool gives you the ability to decrease latency for your applications. With warm pools, you no longer have to over-provision your Auto Scaling groups to manage latency in order to improve application performance. You have the option of keeping instances in the warm pool in one of two states: `Stopped` or `Running`. Keeping instances in a `Stopped` state is an effective way to minimize costs.
